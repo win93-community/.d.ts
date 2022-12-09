@@ -1,11 +1,4 @@
-export type WinObject = {
-    title: string,
-    msg: string,
-    icon: string
-}
-
-
-export function $alert(string | WinObject, boolean => void) => WinObjecthttps://github.com/Perodactyl/w93appMan/blob/master/win93.d.tstype Func = (...args: any[]) => any;
+type Func = (...args: any[]) => any;
 
 declare type _AlertObject = WinObject & {
 	msg: string;
